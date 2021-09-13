@@ -1,0 +1,345 @@
+.cart{
+  border:10px solid black;
+  height:600px;
+  width:300px;
+  margin-left: 5px;
+  border-radius:20px ;
+}
+.top{
+  border:10px solid black;
+  width: 150px;
+  height: 20px;
+  position: relative;
+  left: 65px;
+ border-radius: 1px 1px 15px 15px;
+}
+.rect{
+  position: relative;
+  top: -20px;
+  left:120px ;
+
+}
+.circle{
+  position: absolute;
+  top: 4px;
+  left: 175px;
+}
+.start{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top:30px;
+  
+}
+.start h3{
+  position: relative;
+  left: 110px;
+  top:10px ;
+  font-size: medium;
+  font-weight: bolder;
+}
+.start span:nth-child(2){
+  position: relative;
+  left: -55px;
+  top: 10px;
+}
+.circle-2{
+  height: 15px;
+ width: 15px;
+ border: 1px solid black;
+ border-radius: 50%;
+ position: relative;
+ left: 188px;
+ top: -28px;
+}
+.bubble span{
+  position: relative;
+  left: 175px;
+  top: 10px;
+}
+.circle-2 span{
+  position: relative;
+  left:3px;
+ top:-8px;
+  font-size: 10px;
+}
+.line{
+  border-bottom: 1px double gray;
+  width: 282px;
+  position: relative;
+  left: -99px;
+}
+.items span{
+  position: relative;
+  top:-110px;
+  left: 20px;
+  color: red;
+  font-size: small;
+  font-weight: bold;
+}
+.items .img{
+  position: relative;
+  top: -110px;
+  left: 20px;
+  color: gray;
+}
+.details p:nth-child(2),.details p:nth-child(3){
+  position: relative;
+  top: -180px;
+  left: 110px;
+  font-size: small;
+  color: black;
+}
+.details p:nth-child(3){
+  color: gray;
+}
+.details button:nth-child(4),.details button:nth-child(6){
+  display: flex;
+ justify-content: center;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  position:relative;
+  top: -250px;
+  left:200px;
+  border-radius: 5px;
+  background-color: white;
+  border-color: skyblue;
+  cursor: pointer;
+}
+.details button:nth-child(6){
+  position: relative;
+  left: 240px;
+  top: -294px;
+}
+.details span{
+  position: relative;
+  top: -274px;
+  left: 227px;
+  color: black;
+}
+.details button:hover{
+background-color: skyblue;
+}
+.details .delete{
+  position: relative;
+  top: -280px;
+  left: 224px;
+  cursor: pointer;
+}
+.add{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -260px;
+  font-size: small;
+}
+.mode{
+ position: relative;
+ top: -260px;
+ font-size: small;
+ left: 25px;
+ font-weight: bold;
+ color: red;
+}
+.home span{
+  position: relative;
+  top: -265px;
+  left: 40px;
+  font-size: small;
+  padding-bottom: 5px;
+ 
+}
+.pick span{
+  position: relative;
+  top: -290px;
+  left: 190px;
+  font-size: small;
+  padding-bottom: 5px;
+ 
+}
+.line-2{
+  border-bottom: 1px solid gray;
+  position: relative;
+  top: -260px;
+
+}
+.btn button{
+  width: 75px;
+  height: 40px;
+  position: relative;
+  top:-280px;
+  font-size: 10px;
+  text-align: center;
+  left: -10px;
+  border-radius: 5px;
+  background-color: white;
+
+
+  
+}
+.btn button:nth-child(1){
+  position: relative;
+  left: 1px;
+}
+.btn button:nth-child(2){
+  position: relative;
+  left: 10px;
+}
+.btn button:nth-child(3){
+  position: relative;
+  left: 17px;
+}
+.btn button:hover{
+  background-color: skyblue;
+  border: none;
+}
+.loc{
+  width: 260px;
+  border:1px solid black ;
+  height: 40px;
+  position: relative;
+  top: -275px;
+  left: 10px;
+  border-radius: 5px;
+  
+}
+.loc img{
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  position: relative;
+  top: 5px;
+  left: 2px;
+}
+.loc span:nth-child(2){
+  font-size: 12px;
+  font-weight: bold;
+}
+.loc span:nth-child(3){
+  font-size: 10px;
+  position: relative;
+  top: 12px;
+  left: -38px;
+  color: gray;
+}
+.loc span:nth-child(4){
+  
+  position: relative;
+  top: -20px;
+  left: 240px;
+ 
+}
+.coupon{
+  position: relative;
+  top: -255px;
+  font-size: small;
+}
+.coupon span:nth-child(1){
+  color: red;
+  position: relative;
+  left: 10px;
+  font-size: 11px;
+  font-weight: bold;
+
+}
+.coupon button{
+  border-radius: 25px;
+  position: relative;
+  left: 80px;
+  background-color: white;
+  border-color: red;
+  color: red;
+  padding: 5px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.summary{
+  width: 260px;
+  height: 90px;
+  border: 1px solid black;
+  position: relative;
+  top: -240px;
+  left: 10px;
+  border-radius: 5px;
+}
+.summary p{
+  font-size: 10px;
+  font-weight: bold;
+  position: relative;
+  left: 5px;
+}
+.price span{
+  font-size: 10px;
+  display: flex;
+ text-align: center;
+ color: gray;
+}
+.price span:nth-child(1),.price span:nth-child(2),.price span:nth-child(3){
+  position: relative;
+  top: -10px;
+  left: 5px;
+}
+.price span:nth-child(2){
+  font-size: 9.7px;
+}
+.price span:nth-child(4),.price span:nth-child(5),.price span:nth-child(6){
+  position: relative;
+  left: 190px;
+  top: -55px;
+}
+.price span:nth-child(5){
+  position: relative;
+  left: 195px;
+}
+.price span:nth-child(6){
+  position: relative;
+  left: 206px;
+}
+.dash-line{
+  border-bottom: 1px dashed gray;
+  position: relative;
+  top: -50px;
+  left: 6px;
+  width: 237px;
+}
+.total{
+  font-size: 9px;
+  font-weight: bold;
+  position: relative;
+  top: -48px;
+  left: 5px;
+}
+.total span:nth-child(2){
+  position: relative;
+  left: 111px;
+  
+}
+.payment-btn{
+  position:relative;
+  top: -35px;
+ height: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.payment-btn button{
+  background-color: red;
+  border: none;
+  border-radius: 25px;
+  font-size: small;
+  width: 300px;
+  color: white;
+
+
+ 
+}
+
+
+
+ 
+
+
+
